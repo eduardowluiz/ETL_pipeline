@@ -15,11 +15,11 @@ def update_weather_sql():
 
 
 def create_connection_string():
-    schema = "gans_case_study"
-    host = "34.38.230.232"
-    user = "root"
-    password = "edu161"
-    port = 3306
+    schema = ...
+    host = ...
+    user = ...
+    password = ...
+    port = ...
 
     return f'mysql+pymysql://{user}:{password}@{host}:{port}/{schema}'
 
