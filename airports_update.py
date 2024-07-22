@@ -37,7 +37,7 @@ def get_lat_lon(cities_from_sql, city_info_from_sql):
 
 def icao_airport_codes(latitudes, longitudes):
     list_for_df = []
-    api_key = "14a44098c8mshe4536a007985112p1e3b4bjsn8fd805eb6bd4"
+    api_key = "..."
     base_url = "https://aerodatabox.p.rapidapi.com/airports/search/location"
 
     for lat, lon in zip(latitudes, longitudes):
