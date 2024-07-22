@@ -16,7 +16,7 @@ All data is stored in a relational database containing the tables cities, city_i
 
 To run this project, you need an API key for the Weather API - 5-day forecast as well as AeroDataBox. Free options with monthly limited requests are available.
 
-Codes description: 
+#### Codes description: 
 
 reset.py - Delete all SQL tables and create them again.
 
