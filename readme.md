@@ -18,7 +18,7 @@ To run this project, you need an API key for the Weather API - 5-day forecast as
 
 #### Codes description: 
 
-reset.py - Delete all SQL tables and create them again.
+reset.py - Delete all SQL tables and recreate them.
 
 update_cities.py - Uses web scrapping from Wikipidia to obtain the city information and update them to the SQL cities and city_info tables.
 
