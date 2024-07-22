@@ -19,7 +19,11 @@ To run this project, you need an API key for the Weather API - 5-day forecast as
 Codes description: 
 
 reset.py - Delete all SQL tables and create them again.
+
 update_cities.py - Uses web scrapping from Wikipidia to obtain the city information and update them to the SQL cities and city_info tables.
+
 airports_update.py - Update airports table using API calls from AeroDataBox. An API key is necessary. 
+
 flights_update.py - Updates the flights table with flights arrival information for the next day from the selected airports from AeroDataBox. An API key is necessary. 
+
 weather_update.py - Updates the weather_info with 5-day forecast from the Open Weather API. An API key is necessary.
